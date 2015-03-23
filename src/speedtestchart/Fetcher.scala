@@ -14,7 +14,23 @@ object Fetcher {
     val good = these.filter(f => r.findFirstIn(f.getName).isDefined)
     good ++ these.filter(_.isDirectory).flatMap(recursiveListFiles(_, r))
   }
-  def
+
+  /*
+   *input html
+   *output tr s
+  * */
+
+
+
+  /*input tr
+  * output td s
+  * */
+  def getTd(ori: String): Array[String] = {
+    val raw:String=ori.clone.asInstanceOf[String]
+    val results:List[String]=List[String]()
+
+    _
+  }
 }
 
 class Fetcher (val path:String,val regex:Regex) {
