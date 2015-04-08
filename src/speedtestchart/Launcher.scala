@@ -5,6 +5,7 @@ package speedtestchart
  */
 object Launcher extends App{
   override def main(args: Array[String]) {
+    println("Launching: SpeedTestChartApplication")
     SpeedTestChartApplication.start
   }
 }
