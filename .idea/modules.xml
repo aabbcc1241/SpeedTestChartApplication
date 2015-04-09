@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpeedTestChartApplication.iml" filepath="$PROJECT_DIR$/SpeedTestChartApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scalafx/scalafx-demos/src/main/scalafx-demo-main.iml" filepath="$PROJECT_DIR$/../scalafx/scalafx-demos/src/main/scalafx-demo-main.iml" group="scalafx" />
+      <module fileurl="file://$PROJECT_DIR$/../scalafx/scalafx-demos/src/test/scalafx-demo-test.iml" filepath="$PROJECT_DIR$/../scalafx/scalafx-demos/src/test/scalafx-demo-test.iml" group="scalafx" />
+      <module fileurl="file://$PROJECT_DIR$/../scalafx/scalafx/src/main/scalafx-main.iml" filepath="$PROJECT_DIR$/../scalafx/scalafx/src/main/scalafx-main.iml" group="scalafx" />
+      <module fileurl="file://$PROJECT_DIR$/../scalafx/scalafx/src/test/scalafx-test.iml" filepath="$PROJECT_DIR$/../scalafx/scalafx/src/test/scalafx-test.iml" group="scalafx" />
     </modules>
   </component>
 </project>
