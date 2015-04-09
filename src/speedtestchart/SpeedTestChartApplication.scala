@@ -4,6 +4,7 @@ package speedtestchart
 //import javafx.application.Application
 
 
+import javafx.fxml.FXMLLoader
 
 import speedtestchart.fetcher.Fetcher
 
@@ -40,7 +41,7 @@ private object SpeedTestChartScalaFxApplication extends JFXApp {
     title = "SpeedTest Chart ScalaFx Application"
     width = 800
     height = 600
-    scene = new Scene {
+    /*scene = new Scene {
       fill = Color.WHEAT
       content = for (i <- 0 until 50) yield new Circle {
         centerX = random.nextInt(800)
@@ -49,7 +50,8 @@ private object SpeedTestChartScalaFxApplication extends JFXApp {
         fill=color(random.nextDouble(),random.nextDouble(),random.nextDouble(),0.2)
         effect=new BoxBlur(10,10,3)
       }
-    }
+    }*/
+    scene=new Scene{FXMLLoader.load(getClass.getResource("/speedtestchart/gui/MyView.fxml"))}
   }
 }
 

@@ -6,6 +6,16 @@
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../scalafx" />
         <option name="jdk" value="java 1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../scalafx" />
+            <option value="$PROJECT_DIR$/../scalafx/project" />
+            <option value="$PROJECT_DIR$/../scalafx/scalafx" />
+            <option value="$PROJECT_DIR$/../scalafx/scalafx-demos" />
+            <option value="$PROJECT_DIR$/../scalafx/scalafx-demos/project" />
+            <option value="$PROJECT_DIR$/../scalafx/scalafx/project" />
+          </set>
+        </option>
         <option name="resolveClassifiers" value="true" />
         <option name="resolveSbtClassifiers" value="true" />
         <option name="sbtVersion" value="0.13.7" />
