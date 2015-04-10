@@ -25,4 +25,7 @@ class GenericSpeedtestRecord(val raw: String,
                              val time: Long,
                              val ispName: String,
                              val testServer: String) {
+  override def toString: String = {
+    Vector(uploadSpeed, downloadSpeed, time, ispName, testServer).toString()
+  }
 }

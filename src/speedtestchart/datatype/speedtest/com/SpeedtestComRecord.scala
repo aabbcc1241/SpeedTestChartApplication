@@ -9,20 +9,33 @@ import scala.collection.mutable.ArrayBuffer
  */
 
 object SpeedtestComRecord {
-  def decodeAll(raws: Array[String]) = {
+  def decodeAll(raws: Array[String]): Array[SpeedtestComRecord] = {
     val result = new ArrayBuffer[SpeedtestComRecord]()
-    raws.foreach(raw => result += decode(raw))
+    var start = -1
+    var end = -1
+    raws.indices.foreach(i =>
+      if (raws(i) == " ")
+        if (start == -1) start = i
+        else {
+          end = i
+          var array: Array[String] = Array.fill[String](end - start)("")
+          raws.copyToArray(array, start, array.length)
+          result += decode(array)
+          start = -1
+        }
+    )
+    result.toArray
   }
 
-  def decode(raw: String): SpeedtestComRecord = {
+  def decode(raw: Array[String]): SpeedtestComRecord = {
     //TODO
     val uploadSpeed = 0
     val downloadSpeed = 0
-    val time = 0
+    val time = System.currentTimeMillis()
     val ispName = ""
     val testServer = ""
-    val region = ""
-    new SpeedtestComRecord(raw, uploadSpeed, downloadSpeed, time, ispName, testServer, region)
+    val region = raw(2)
+    new SpeedtestComRecord(raw.toVector.toString(), uploadSpeed, downloadSpeed, time, ispName, testServer, region)
   }
 }
 
