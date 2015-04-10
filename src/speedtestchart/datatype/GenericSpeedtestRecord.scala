@@ -1,7 +1,5 @@
 package speedtestchart.datatype
 
-import java.security.Timestamp
-
 /**
  * Created by hkpu on 2/4/2015.
  */
@@ -9,17 +7,22 @@ import java.security.Timestamp
 /**
  *
  * @param raw
- *            multi-line string from file
+ * multi-line string from file
  * @param uploadSpeed
- *                    bit per second
+ * bit per second
  * @param downloadSpeed
- *                      bit per second
+ * bit per second
  * @param time
- *   time of the speed test record
+ * time of the speed test record
  * @param ispName
- *                name of the internet service provider
+ * name of the internet service provider
  * @param testServer
- *                   name of the speed test server
+ * name of the speed test server
  */
-class GenericSpeedtestRecord(val raw: String, val uploadSpeed:Double, val downloadSpeed: Double, val time: Timestamp, val ispName: String, val testServer: String) {
+class GenericSpeedtestRecord(val raw: String,
+                             val uploadSpeed: Double,
+                             val downloadSpeed: Double,
+                             val time: Long,
+                             val ispName: String,
+                             val testServer: String) {
 }

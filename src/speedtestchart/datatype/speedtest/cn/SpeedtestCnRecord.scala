@@ -1,6 +1,4 @@
-package speedtestchart.datatype.speedtestcn
-
-import java.security.Timestamp
+package speedtestchart.datatype.speedtest.cn
 
 import speedtestchart.datatype.GenericSpeedtestRecord
 
@@ -18,7 +16,7 @@ object SpeedtestCnRecord {
   }
 }
 
-class SpeedtestCnRecord(ip: String, download: Double, upload: Double, location: String, os: String, browser: Browser, date: Timestamp) {
+class SpeedtestCnRecord(ip: String, download: Double, upload: Double, location: String, os: String, browser: Browser, time: Long) {
   def toGenericSpeedtestRecord: GenericSpeedtestRecord = {
     //TODO
     null

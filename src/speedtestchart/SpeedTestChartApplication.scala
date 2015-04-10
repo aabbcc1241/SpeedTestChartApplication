@@ -4,7 +4,7 @@ package speedtestchart
 //import javafx.application.Application
 
 
-import javafx.fxml.FXMLLoader
+import java.io.{InputStreamReader, BufferedReader, FileInputStream, File}
 
 import speedtestchart.fetcher.Fetcher
 
@@ -19,29 +19,30 @@ import scalafx.application.JFXApp
  * Created by beenotung on 3/23/15.
  */
 object SpeedTestChartApplication extends Thread {
-  //private val runnable = new SpeedTestChartApplicationRunnable
-  private val runnable = new SpeedTestChartJavaFxApplication
+  private val runnable = new SpeedTestChartApplicationRunnable
+  //private val runnable = new SpeedTestChartJavaFxApplication
 
   override def run = {
-    SpeedTestChartScalaFxApplication.main(Array.empty[String])
+    //SpeedTestChartScalaFxApplication.main(Array.empty[String])
+    runnable.run
   }
 }
 
 private object SpeedTestChartScalaFxApplication extends JFXApp {
   val random = new Random(System.currentTimeMillis())
 
-  import scalafx.scene.paint.Color._
   import scalafx.application.JFXApp.PrimaryStage
   import scalafx.scene._
   import scalafx.scene.effect.BoxBlur
   import scalafx.scene.paint.Color
+  import scalafx.scene.paint.Color._
   import scalafx.scene.shape.Circle
 
   stage = new PrimaryStage {
     title = "SpeedTest Chart ScalaFx Application"
     width = 800
     height = 600
-    /*scene = new Scene {
+    scene = new Scene {
       fill = Color.WHEAT
       content = for (i <- 0 until 50) yield new Circle {
         centerX = random.nextInt(800)
@@ -50,8 +51,8 @@ private object SpeedTestChartScalaFxApplication extends JFXApp {
         fill=color(random.nextDouble(),random.nextDouble(),random.nextDouble(),0.2)
         effect=new BoxBlur(10,10,3)
       }
-    }*/
-    scene=new Scene{FXMLLoader.load(getClass.getResource("/speedtestchart/gui/MyView.fxml"))}
+    }
+    //scene=new Scene{FXMLLoader.load(getClass.getResource("/speedtestchart/gui/MyView.fxml"))}
   }
 }
 
@@ -102,9 +103,28 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
   var path: String = _
   var regex: String = _
 
+  def readFile(fetcher: Fetcher) :Unit = {
+    fetcher.getFiles.foreach(f=> readFile(f) )
+  }
+  def readFile(file:File): Unit ={
+    val in=new FileInputStream(file)
+    if(in.available()<1)return
+    /*val array=Array.fill[Byte](in.available())(0)
+    in.read(array)
+    array.foreach(b=>print(b.toChar))*/
+    val reader=new BufferedReader(new InputStreamReader(in))
+    val lines=reader.lines()
+
+    println()
+  }
+
   def init = {
     fetcher = new Fetcher(path, new Regex(regex))
     updateView
+    val result=Dialog.showConfirmation(null,"start?","confirm",Dialog.Options.OkCancel,Dialog.Message.Question,null)
+    if(result.eq(Dialog.Result.Ok)){
+      readFile(fetcher);
+    }
   }
 
   def updateView = {
@@ -139,7 +159,7 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
         }
       }) = Center
     }
-    size = new Dimension(800, 600)
+    size = new Dimension(400, 300)
     location = new Point(100, 100)
   }
 
