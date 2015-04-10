@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af0b3d19-77f3-45c4-8409-80e3f4de7945" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartScalaFxApplication$$anon$6$$anon$7.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/SpeedtestComRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtestcn/Browser.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/Browser.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtestcn/SpeedtestCnRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplication$.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplication$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplication.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4$$anon$1$$anonfun$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4$$anon$1$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4$$anon$1$$anonfun$2.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4$$anon$1$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4$$anon$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4$$anon$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3$$anon$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$setup$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$setup$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$updateView$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$updateView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$5$$anon$2.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$5$$anon$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$5$$anonfun$3.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$5$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$5.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartJavaFxApplication.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartJavaFxApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartScalaFxApplication$$anon$6.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartScalaFxApplication$$anon$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartScalaFxApplication$.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartScalaFxApplication$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartScalaFxApplication$delayedInit$body.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartScalaFxApplication$delayedInit$body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedTestChartApplication.iml" afterPath="$PROJECT_DIR$/SpeedTestChartApplication.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
     </list>
     <ignored path="SpeedTestChartApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,54 +46,22 @@
         <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
               <folding>
                 <element signature="e#67#140#0" expanded="true" />
-                <element signature="e#773#819#0" expanded="true" />
-                <element signature="e#1664#1689#0" expanded="true" />
-                <element signature="e#2668#2709#0" expanded="true" />
+                <element signature="e#942#988#0" expanded="true" />
+                <element signature="e#1846#1871#0" expanded="true" />
+                <element signature="e#2941#2982#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Browser.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/Browser.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpeedtestComRecord.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19402985">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-              <folding>
-                <element signature="e#47#100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericSpeedtestRecord.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="52" selection-start-line="21" selection-start-column="28" selection-end-line="26" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpeedtestCnRecord.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpeedtestCnRecord.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.6447761">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#46#99#0" expanded="true" />
               </folding>
@@ -126,32 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fetcher.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/speedtestchart/fetcher/Fetcher.scala">
+      <file leaf-file-name="SpeedtestComRecord.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/default/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dialog.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/share/scala/lib/scala-swing_2.11-1.0.1.jar!/scala/swing/Dialog.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.52">
-              <caret line="28" column="393" selection-start-line="28" selection-start-column="393" selection-end-line="28" selection-end-column="393" />
-              <folding />
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#47#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,11 +106,11 @@
         <option value="$PROJECT_DIR$/src/speedtestchart/fetcher/Fetcher.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/Launcher.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/gui/MyView.fxml" />
-        <option value="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/Browser.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala" />
-        <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
+        <option value="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
+        <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" />
       </list>
     </option>
   </component>
@@ -200,9 +125,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
+    <option name="x" value="159" />
     <option name="y" value="53" />
-    <option name="width" value="1043" />
+    <option name="width" value="1181" />
     <option name="height" value="648" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -340,40 +265,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SpeedtestComRecord.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedTestChartApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedTestChartApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speedtestchart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatype" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speedtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpeedtestCnRecord.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -866,7 +757,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="53" width="1043" height="648" extended-state="0" />
+    <frame x="159" y="53" width="1181" height="648" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -881,7 +772,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33759123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37175792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32824427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -922,9 +813,9 @@
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
             <element signature="e#67#140#0" expanded="true" />
-            <element signature="e#773#819#0" expanded="true" />
-            <element signature="e#1664#1689#0" expanded="true" />
-            <element signature="e#2668#2709#0" expanded="true" />
+            <element signature="e#942#988#0" expanded="true" />
+            <element signature="e#1846#1871#0" expanded="true" />
+            <element signature="e#2941#2982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1209,37 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding>
-            <element signature="e#67#140#0" expanded="true" />
-            <element signature="e#773#819#0" expanded="true" />
-            <element signature="e#1664#1689#0" expanded="true" />
-            <element signature="e#2668#2709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/Browser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#46#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1248,12 +1108,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/Browser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08955224">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19402985">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="e#47#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
+          <folding>
+            <element signature="e#67#140#0" expanded="true" />
+            <element signature="e#942#988#0" expanded="true" />
+            <element signature="e#1846#1871#0" expanded="true" />
+            <element signature="e#2941#2982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6447761">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#99#0" expanded="true" />
           </folding>
         </state>
       </provider>

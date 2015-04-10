@@ -9,7 +9,7 @@ import scala.collection.mutable.ArrayBuffer
  */
 
 object SpeedtestComRecord {
-  def decode(raws: Array[String]) = {
+  def decodeAll(raws: Array[String]) = {
     val result = new ArrayBuffer[SpeedtestComRecord]()
     raws.foreach(raw => result += decode(raw))
   }

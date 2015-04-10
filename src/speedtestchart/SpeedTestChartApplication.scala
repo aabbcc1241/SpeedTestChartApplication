@@ -4,15 +4,17 @@ package speedtestchart
 //import javafx.application.Application
 
 
-import java.io.{InputStreamReader, BufferedReader, FileInputStream, File}
+import java.io.{BufferedReader, File, FileInputStream, InputStreamReader}
 
+import speedtestchart.datatype.speedtest.cn.SpeedtestCnRecord
+import speedtestchart.datatype.speedtest.com.SpeedtestComRecord
 import speedtestchart.fetcher.Fetcher
 
+import scala.collection.mutable.ArrayBuffer
 import scala.swing.SimpleSwingApplication
 import scala.util.Random
 import scala.util.matching.Regex
 import scalafx.application.JFXApp
-
 
 
 /**
@@ -47,9 +49,9 @@ private object SpeedTestChartScalaFxApplication extends JFXApp {
       content = for (i <- 0 until 50) yield new Circle {
         centerX = random.nextInt(800)
         centerY = random.nextInt(800)
-        radius=150
-        fill=color(random.nextDouble(),random.nextDouble(),random.nextDouble(),0.2)
-        effect=new BoxBlur(10,10,3)
+        radius = 150
+        fill = color(random.nextDouble(), random.nextDouble(), random.nextDouble(), 0.2)
+        effect = new BoxBlur(10, 10, 3)
       }
     }
     //scene=new Scene{FXMLLoader.load(getClass.getResource("/speedtestchart/gui/MyView.fxml"))}
@@ -57,11 +59,14 @@ private object SpeedTestChartScalaFxApplication extends JFXApp {
 }
 
 import javafx.application.Application
+
 private class SpeedTestChartJavaFxApplication extends Application with Runnable {
+
   import javafx.scene.Scene
   import javafx.scene.control.{Button, Label}
   import javafx.scene.layout.{FlowPane, StackPane}
   import javafx.stage.Stage
+
 
   override def start(stage: Stage): Unit = {
     println("loading FX stage")
@@ -83,7 +88,6 @@ private class SpeedTestChartJavaFxApplication extends Application with Runnable 
   }
 
 
-
   override def run(): Unit = {
     println("opening gui window")
     Application.launch(classOf[SpeedTestChartJavaFxApplication])
@@ -92,39 +96,53 @@ private class SpeedTestChartJavaFxApplication extends Application with Runnable 
 
 private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication with Runnable {
 
+  val mainland = "Mainland"
+  val hk = "hk"
+  val pathDialog: PathDialog = new PathDialog
+
   import scala.swing.BorderPanel.Position._
   import scala.swing._
 
-  val pathDialog: PathDialog = new PathDialog
   val fileListTextField = new TextField
-
-
+  var target: String = ""
   var fetcher: Fetcher = _
   var path: String = _
   var regex: String = _
 
-  def readFile(fetcher: Fetcher) :Unit = {
-    fetcher.getFiles.foreach(f=> readFile(f) )
-  }
-  def readFile(file:File): Unit ={
-    val in=new FileInputStream(file)
-    if(in.available()<1)return
-    /*val array=Array.fill[Byte](in.available())(0)
-    in.read(array)
-    array.foreach(b=>print(b.toChar))*/
-    val reader=new BufferedReader(new InputStreamReader(in))
-    val lines=reader.lines()
-
-    println()
-  }
-
   def init = {
     fetcher = new Fetcher(path, new Regex(regex))
     updateView
-    val result=Dialog.showConfirmation(null,"start?","confirm",Dialog.Options.OkCancel,Dialog.Message.Question,null)
-    if(result.eq(Dialog.Result.Ok)){
+    val result = Dialog.showConfirmation(null, "start?", "confirm", Dialog.Options.OkCancel, Dialog.Message.Question, null)
+    if (result.eq(Dialog.Result.Ok)) {
       readFile(fetcher);
     }
+  }
+
+  def readFile(fetcher: Fetcher): Unit = {
+    fetcher.getFiles.foreach(f => readFile(f))
+  }
+
+  def readFile(file: File): Unit = {
+    val in = new FileInputStream(file)
+    if (in.available() < 1) return
+    /*val array=Array.fill[Byte](in.available())(0)
+    in.read(array)
+    array.foreach(b=>print(b.toChar))*/
+    val reader = new BufferedReader(new InputStreamReader(in))
+    val lines = new ArrayBuffer[String]()
+    var line: String = ""
+    do {
+      line = reader.readLine()
+      if (line != null)
+        lines += line
+    } while (line != null)
+    if (target == hk) {
+      SpeedtestComRecord.decodeAll(lines.toArray)
+    }
+    else if(target==mainland){
+      SpeedtestCnRecord.decodeAll(lines.toArray)
+    }
+    println()
   }
 
   def updateView = {
@@ -152,9 +170,11 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
       layout(new BoxPanel(Orientation.Vertical) {
         override val border = Swing.EmptyBorder(5, 5, 5, 5)
         contents += Button("Speedtest.cn (Mainland)") {
+          target = mainland
           pathDialog.open
         }
         contents += Button("Speedtest.com (Hong Kong)") {
+          target = hk
           pathDialog.open
         }
       }) = Center
