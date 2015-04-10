@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af0b3d19-77f3-45c4-8409-80e3f4de7945" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
     </list>
@@ -45,53 +44,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpeedTestChartApplication.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpeedTestChartApplication.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayBuffer.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar!/scala/collection/mutable/ArrayBuffer.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpeedtestComRecord.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.385567">
-              <caret line="47" column="101" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.65789473">
+              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
               <folding>
-                <element signature="e#47#100#0" expanded="true" />
+                <element signature="e#24#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraversableLike.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar!/scala/collection/TraversableLike.scala">
+      <file leaf-file-name="Dialog.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/13058456A/scala-2.11.6/lib/scala-swing_2.11-1.0.1.jar!/scala/swing/Dialog.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="260" column="16" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
+            <state vertical-scroll-proportion="-14.2">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericSpeedtestRecord.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala">
+      <file leaf-file-name="File.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/13058456A/jdk1.8.0_40/jre/lib/rt.jar!/java/io/File.class">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -124,9 +103,9 @@
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/Browser.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/Launcher.scala" />
-        <option value="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
-        <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala" />
+        <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
+        <option value="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
       </list>
     </option>
   </component>
@@ -141,9 +120,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
+    <option name="x" value="606" />
     <option name="y" value="81" />
-    <option name="width" value="1510" />
+    <option name="width" value="1272" />
     <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -626,7 +605,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="81" width="1510" height="924" extended-state="0" />
+    <frame x="606" y="81" width="1272" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -640,7 +619,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35330835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29744816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -680,7 +659,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -748,7 +729,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -800,7 +783,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/13058456A/scala-2.11.6/lib/scala-swing_2.11-1.0.1.jar!/scala/swing/Dialog.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.08">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar!/scala/runtime/RichInt.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -921,14 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -939,10 +908,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.385567">
-          <caret line="47" column="101" selection-start-line="47" selection-start-column="101" selection-end-line="47" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding>
             <element signature="e#47#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/13058456A/jdk1.8.0_40/jre/lib/rt.jar!/java/io/File.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/13058456A/scala-2.11.6/lib/scala-swing_2.11-1.0.1.jar!/scala/swing/Dialog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.2">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65789473">
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
