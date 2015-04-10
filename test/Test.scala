@@ -1,6 +1,6 @@
 import java.io.File
 
-import speedtestchart.Fetcher
+import speedtestchart.fetcher.Fetcher
 
 import scala.util.matching.Regex
 
