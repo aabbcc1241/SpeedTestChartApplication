@@ -49,9 +49,11 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
     fetcher = new Fetcher(path, new Regex(regex))
     updateView
     val result = Dialog.showConfirmation(null, "start?", "confirm", Dialog.Options.OkCancel, Dialog.Message.Question, null)
-    if (result.eq(Dialog.Result.Ok)) {
+    if (result.id == 0) {
+      println("clicked ok")
       readFile(fetcher);
     }
+    println("clicked cancel")
   }
 
   def readFile(fetcher: Fetcher): Unit = {
@@ -66,18 +68,21 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
     array.foreach(b=>print(b.toChar))*/
     val reader = new BufferedReader(new InputStreamReader(in))
     val lines = new ArrayBuffer[String]()
-    var line: String = ""
     do {
-      line = reader.readLine()
-      if (line != null)
-        lines += line
-    } while (line != null)
-    if (target == hk) {
-      SpeedtestComRecord.decodeAll(lines.toArray)
+      lines += reader.readLine()
+    } while (lines.last != null)
+    if (target.equals(hk)) {
+      println("loading hk data")
+      val records = SpeedtestComRecord.decodeAll(lines.toArray)
+      println(records.toVector.toString)
+      records.foreach(r => println(r.toString))
     }
-    else if (target == mainland) {
+    else if (target.equals(mainland)) {
+      println("loading mainland data")
       SpeedtestCnRecord.decodeAll(lines.toArray)
     }
+    else
+      println("invalid target type (not hk nor mainland")
     println()
   }
 

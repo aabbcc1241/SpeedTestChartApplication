@@ -13,22 +13,32 @@ object SpeedtestComRecord {
     val result = new ArrayBuffer[SpeedtestComRecord]()
     var start = -1
     var end = -1
-    raws.indices.foreach(i =>
-      if (raws(i) == " ")
-        if (start == -1) start = i
+
+    raws.indices.foreach(i => {
+      //println("checking(" + i + "): " + raws(i))
+      if (raws(i) == "")
+        if (start == -1)
+          start = i
         else {
+          //println(raws(i))
           end = i
-          var array: Array[String] = Array.fill[String](end - start)("")
-          raws.copyToArray(array, start, array.length)
+          val array: Array[String] = Array.tabulate[String](end - start + 1)(j => raws(j + start))
           result += decode(array)
           start = -1
         }
+    }
     )
-    result.toArray
+    result.filter(p => p != null).toArray
   }
 
   def decode(raw: Array[String]): SpeedtestComRecord = {
     //TODO
+    //println(raw.length)
+    if (raw.length < 10) {
+      //println("discarded record")
+      return null
+    }
+    //println("building record")
     val uploadSpeed = 0
     val downloadSpeed = 0
     val time = System.currentTimeMillis()
@@ -40,12 +50,11 @@ object SpeedtestComRecord {
 }
 
 class SpeedtestComRecord(raw: String,
-                         uploadSpeed: Double,
-                         downloadSpeed: Double,
-                         time: Long,
+                         uploadSpeed: String,
+                         downloadSpeed: String,
+                         time: String,
                          ispName: String,
                          testServer: String,
                          region: String)
   extends GenericSpeedtestRecord(raw, uploadSpeed, downloadSpeed, time, ispName, testServer) {
-
 }
