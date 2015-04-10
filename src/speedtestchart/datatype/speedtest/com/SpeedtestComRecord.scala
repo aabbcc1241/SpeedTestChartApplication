@@ -43,7 +43,16 @@ object SpeedtestComRecord {
     val downloadSpeed = raw(8)
     val time = raw(1)
     val ispName = raw(5)
-    val testServer = raw(6)
+    val testServerRaw = raw(6)
+    var testServer = ""
+    var i = 0
+    while (i < testServerRaw.length) {
+      if (testServerRaw.charAt(i) != '[')
+        testServer += testServerRaw.charAt(i)
+      else
+        i = testServerRaw.length
+      i += 1
+    }
     val region = raw(2)
     new SpeedtestComRecord(raw.toVector.toString(), uploadSpeed, downloadSpeed, time, ispName, testServer, region)
   }

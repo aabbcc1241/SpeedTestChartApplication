@@ -62,7 +62,6 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
   }
 
   def save(records: Array[SpeedtestComRecord]) = {
-    println("save file")
     filename=""
     fileDialog.open
     while(filename=="")
@@ -70,13 +69,54 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
       println("waiting")
       Thread.sleep(500)
     }
-    val out=new PrintWriter(filename)
+
+    println("saving files")
+
+    var out=new PrintWriter(filename+".upload")
+    out.println()
     records.foreach(r=>{
-      out.println()
-      out.println(r.downloadSpeed)
       out.println(r.uploadSpeed)
     })
+    out.close()
+
+    out=new PrintWriter(filename+".download")
+    out.println()
+    records.foreach(r=>{
+      out.println(r.downloadSpeed)
+    })
+    out.close()
+
+    out=new PrintWriter(filename+".time")
+    out.println()
+    records.foreach(r=>{
+      out.println(r.time)
+    })
+    out.close()
+
+    out=new PrintWriter(filename+".ispName")
+    out.println()
+    records.foreach(r=>{
+      out.println(r.ispName)
+    })
+    out.close()
+
+    out=new PrintWriter(filename+".testServer")
+    out.println()
+    records.foreach(r=>{
+      out.println(r.testServer)
+    })
+    out.close()
+
+    println("saved files")
   }
+
+  /*
+  out.println(r.uploadSpeed)
+  out.println(r.downloadSpeed)
+  out.println(r.time)
+  out.println(r.ispName)
+  out.println(r.testServer)
+  */
 
   def readFile(file: File): Unit = {
     val in = new FileInputStream(file)
@@ -165,6 +205,11 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
           close()
         }
       )) = South
+    }
+    override def open = {
+      size = top.size
+      location = top.location
+      super.open
     }
   }
 
