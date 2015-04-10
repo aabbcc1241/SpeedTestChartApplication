@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af0b3d19-77f3-45c4-8409-80e3f4de7945" name="Default" comment="">
+      <change type="DELETED" beforePath="F:\tool\portableapps\PortableApps\GitPortable\Data\home\git\repo\SpeedTestChartApplication-master\output.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5$$anon$1$$anonfun$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5$$anon$1$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5$$anon$1$$anonfun$2.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5$$anon$1$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5$$anon$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5$$anon$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4$$anon$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anon$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$save$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$save$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$setup$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$setup$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$updateView$1.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$$anonfun$updateView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$7$$anon$3.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$7$$anon$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$7$$anonfun$4.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$7$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$7.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog$$anon$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$PathDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog$$anon$6$$anon$2.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog$$anon$6$$anon$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog$$anon$6$$anonfun$3.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog$$anon$6$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog$$anon$6.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog$$anon$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable$SaveFileDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable.class" afterPath="$PROJECT_DIR$/out/production/SpeedTestChartApplication/speedtestchart/SpeedTestChartApplicationRunnable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpeedTestChartApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,6 +50,26 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="GenericSpeedtestRecord.scala" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.50927836">
+                    <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsManager">
     <system id="SBT">
@@ -47,8 +86,8 @@
       <file leaf-file-name="SpeedTestChartApplication.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65789473">
-              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+            <state vertical-scroll-proportion="6.2870812">
+              <caret line="209" column="21" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
               <folding>
                 <element signature="e#24#48#0" expanded="true" />
               </folding>
@@ -62,6 +101,18 @@
             <state vertical-scroll-proportion="-14.2">
               <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpeedtestComRecord.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+              <folding>
+                <element signature="e#47#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +171,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="81" />
+    <option name="x" value="448" />
+    <option name="y" value="89" />
     <option name="width" value="1272" />
     <option name="height" value="924" />
   </component>
@@ -605,19 +656,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="606" y="81" width="1272" height="924" extended-state="0" />
+    <frame x="448" y="89" width="1272" height="924" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32459426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32459426" sideWeight="0.4968102" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35330835" sideWeight="0.5095694" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35330835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35330835" sideWeight="0.49043062" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29744816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -898,24 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <element signature="e#47#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/13058456A/jdk1.8.0_40/jre/lib/rt.jar!/java/io/File.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -932,10 +965,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50927836">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="e#47#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65789473">
-          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        <state vertical-scroll-proportion="6.2870812">
+          <caret line="209" column="21" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
           <folding>
             <element signature="e#24#48#0" expanded="true" />
           </folding>
