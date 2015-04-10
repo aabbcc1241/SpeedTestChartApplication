@@ -14,11 +14,13 @@ object SpeedtestCnRecord {
     //TODO
     null
   }
-  def decodeAll(raws:Array[String]): Array[SpeedtestCnRecord] ={
 
+  def decodeAll(raws: Array[String]): Array[SpeedtestCnRecord] = {
+    null
   }
-  def decodeAll(raws:Array[String]): Array[SpeedtestCnRecord] ={
 
+  def decode(raws: Array[String]): SpeedtestCnRecord = {
+    null
   }
 }
 

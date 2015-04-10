@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af0b3d19-77f3-45c4-8409-80e3f4de7945" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpeedTestChartApplication.iml" afterPath="$PROJECT_DIR$/SpeedTestChartApplication.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" afterPath="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpeedTestChartApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,22 +48,20 @@
         <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
+              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
               <folding>
                 <element signature="e#67#140#0" expanded="true" />
-                <element signature="e#942#988#0" expanded="true" />
-                <element signature="e#1846#1871#0" expanded="true" />
-                <element signature="e#2941#2982#0" expanded="true" />
+                <element signature="e#951#992#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpeedtestCnRecord.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpeedtestCnRecord.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6447761">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#46#99#0" expanded="true" />
               </folding>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpeedtestComRecord.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpeedtestComRecord.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.46783626">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="e#47#100#0" expanded="true" />
               </folding>
@@ -108,9 +108,9 @@
         <option value="$PROJECT_DIR$/src/speedtestchart/gui/MyView.fxml" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/Browser.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/GenericSpeedtestRecord.scala" />
-        <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala" />
         <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala" />
+        <option value="$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala" />
       </list>
     </option>
   </component>
@@ -311,7 +311,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -762,14 +762,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32508835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3248175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33759123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33759123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32824427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -813,9 +813,7 @@
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
             <element signature="e#67#140#0" expanded="true" />
-            <element signature="e#942#988#0" expanded="true" />
-            <element signature="e#1846#1871#0" expanded="true" />
-            <element signature="e#2941#2982#0" expanded="true" />
+            <element signature="e#951#992#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1116,35 +1114,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#47#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/speedtestchart/SpeedTestChartApplication.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
           <folding>
             <element signature="e#67#140#0" expanded="true" />
-            <element signature="e#942#988#0" expanded="true" />
-            <element signature="e#1846#1871#0" expanded="true" />
-            <element signature="e#2941#2982#0" expanded="true" />
+            <element signature="e#951#992#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/cn/SpeedtestCnRecord.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6447761">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#46#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/speedtestchart/datatype/speedtest/com/SpeedtestComRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46783626">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#47#100#0" expanded="true" />
           </folding>
         </state>
       </provider>

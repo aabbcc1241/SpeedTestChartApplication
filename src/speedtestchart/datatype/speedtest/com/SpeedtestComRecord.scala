@@ -18,7 +18,7 @@ object SpeedtestComRecord {
     //TODO
     val uploadSpeed = 0
     val downloadSpeed = 0
-    val time = null
+    val time = 0
     val ispName = ""
     val testServer = ""
     val region = ""
