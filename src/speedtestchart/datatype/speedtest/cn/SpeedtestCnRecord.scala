@@ -14,6 +14,12 @@ object SpeedtestCnRecord {
     //TODO
     null
   }
+  def decodeAll(raws:Array[String]): Array[SpeedtestCnRecord] ={
+
+  }
+  def decodeAll(raws:Array[String]): Array[SpeedtestCnRecord] ={
+
+  }
 }
 
 class SpeedtestCnRecord(ip: String, download: Double, upload: Double, location: String, os: String, browser: Browser, time: Long) {
