@@ -20,9 +20,12 @@ package speedtestchart.datatype
  * name of the speed test server
  */
 class GenericSpeedtestRecord(val raw: String,
-                             val uploadSpeed: Double,
-                             val downloadSpeed: Double,
-                             val time: Long,
+                             val uploadSpeed: String,
+                             val downloadSpeed: String,
+                             val time: String,
                              val ispName: String,
                              val testServer: String) {
+  override def toString: String = {
+    Vector(uploadSpeed, downloadSpeed, time, ispName, testServer).toString()
+  }
 }
