@@ -39,11 +39,11 @@ object SpeedtestComRecord {
       return null
     }
     //println("building record")
-    val uploadSpeed = 0
-    val downloadSpeed = 0
-    val time = System.currentTimeMillis()
-    val ispName = ""
-    val testServer = ""
+    val uploadSpeed = raw(10)
+    val downloadSpeed = raw(8)
+    val time = raw(1)
+    val ispName = raw(5)
+    val testServer = raw(6)
     val region = raw(2)
     new SpeedtestComRecord(raw.toVector.toString(), uploadSpeed, downloadSpeed, time, ispName, testServer, region)
   }

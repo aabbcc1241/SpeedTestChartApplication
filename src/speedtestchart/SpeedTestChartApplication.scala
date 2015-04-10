@@ -1,10 +1,11 @@
 package speedtestchart
 
+import scala.swing.Label
 
 //import javafx.application.Application
 
 
-import java.io.{InputStreamReader, BufferedReader, FileInputStream, File}
+import java.io._
 
 import speedtestchart.datatype.speedtest.cn.SpeedtestCnRecord
 import speedtestchart.datatype.speedtest.com.SpeedtestComRecord
@@ -35,6 +36,7 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
   val mainland = "Mainland"
   val hk = "hk"
   val pathDialog: PathDialog = new PathDialog
+  val fileDialog:SaveFileDialog=new SaveFileDialog
 
   import scala.swing.BorderPanel.Position._
   import scala.swing._
@@ -53,11 +55,27 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
       println("clicked ok")
       readFile(fetcher);
     }
-    println("clicked cancel")
   }
 
   def readFile(fetcher: Fetcher): Unit = {
     fetcher.getFiles.foreach(f => readFile(f))
+  }
+
+  def save(records: Array[SpeedtestComRecord]) = {
+    println("save file")
+    filename=""
+    fileDialog.open
+    while(filename=="")
+    {
+      println("waiting")
+      Thread.sleep(500)
+    }
+    val out=new PrintWriter(filename)
+    records.foreach(r=>{
+      out.println()
+      out.println(r.downloadSpeed)
+      out.println(r.uploadSpeed)
+    })
   }
 
   def readFile(file: File): Unit = {
@@ -75,7 +93,7 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
       println("loading hk data")
       val records = SpeedtestComRecord.decodeAll(lines.toArray)
       println(records.toVector.toString)
-      records.foreach(r => println(r.toString))
+      save(records)
     }
     else if (target.equals(mainland)) {
       println("loading mainland data")
@@ -122,6 +140,32 @@ private class SpeedTestChartApplicationRunnable extends SimpleSwingApplication w
     }
     size = new Dimension(400, 300)
     location = new Point(100, 100)
+  }
+
+  var filename = ""
+
+  class SaveFileDialog extends Dialog {
+    title = "Save File"
+    modal = true
+    val textField = new TextField
+
+    contents = new BorderPanel {
+      layout(new BoxPanel(Orientation.Vertical) {
+
+        import scala.swing.Label
+
+        override val border = Swing.EmptyBorder(5, 5, 5, 5)
+        contents += new Label("File name:")
+        contents += textField
+      }) = Center
+
+      layout(new FlowPanel(FlowPanel.Alignment.Right)(
+        Button("OK") {
+          filename = textField.text
+          close()
+        }
+      )) = South
+    }
   }
 
   class PathDialog extends Dialog {
